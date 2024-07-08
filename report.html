@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visual Comparison Report</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+  th { background-color: #f2f2f2; }
+  tr:nth-child(even) { background-color: #f9f9f9; }
+  img { width: 150px; }
+</style>
+</head>
+<body>
+<h1>Visual Comparison Report</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Baseline Image</th>
+      <th>Checkpoint Image</th>
+      <th>Diff Image</th>
+      <th>Mismatch Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+              <tr>
+                <td><img src="baseline-images\C344538 I can sign out from my account. C344539 merged together by John.png" alt="Baseline"></td>
+                <td><img src="checkpoint-images\C344538 I can sign out from my account. C344539 merged together by John.png" alt="Checkpoint"></td>
+                <td><img src="comparison-results\diff-C344538 I can sign out from my account. C344539 merged together by John.png" alt="Diff"></td>
+                <td>0.00%</td>
+              </tr>
+              <tr>
+                <td><img src="baseline-images\C344679 Add contact filters.png" alt="Baseline"></td>
+                <td><img src="checkpoint-images\C344679 Add contact filters.png" alt="Checkpoint"></td>
+                <td><img src="comparison-results\diff-C344679 Add contact filters.png" alt="Diff"></td>
+                <td>0.01%</td>
+              </tr>
+              <tr>
+                <td><img src="baseline-images\C346156 - Sign in Page - Reveal Password.png" alt="Baseline"></td>
+                <td><img src="checkpoint-images\C346156 - Sign in Page - Reveal Password.png" alt="Checkpoint"></td>
+                <td><img src="comparison-results\diff-C346156 - Sign in Page - Reveal Password.png" alt="Diff"></td>
+                <td>0.00%</td>
+              </tr>
+            </tbody>
+          </table>
+        </body>
+        </html>
